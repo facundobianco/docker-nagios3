@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/sbin/exim4 -bd -q30m
+/usr/sbin/apache2ctl -D FOREGROUND
